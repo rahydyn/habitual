@@ -1,0 +1,17 @@
+<div class="login-page">
+    <div class="container">
+    <div class="form-heading">Log In!</div>
+    <div class="form users-form">
+      <div class="form-body">
+          <%= form_tag("/login") do %>
+              <%#<input name="name">%>
+              <p>email</p>
+              <input name="email">
+              <p>password</p>
+              <input name="password" type="password">
+              <input type="submit" value="Log-In">
+          <% end %>
+        </div>
+        </div>  
+    </div>
+</div>

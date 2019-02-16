@@ -1,0 +1,18 @@
+<div class="signup-page">
+    <div class="container">
+    <div class="form-heading">Sign Up!</div>
+    <div class="form users-form">
+      <div class="form-body">
+          <%= form_tag("/users/create") do %>
+              <p>user name</p>
+              <input name="name">
+              <p>email</p>
+              <input name="email">
+              <p>password</p>
+              <input name="password" type="password">
+              <input type="submit" value="Sign-Up">
+          <% end %>
+        </div>
+        </div>    
+        </div>
+</div>
